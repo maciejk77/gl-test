@@ -1,0 +1,24 @@
+@import "bower_components/normalize-css/normalize";
+
+body:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.info-banner {
+
+  &__content {}
+
+  &__title,
+  &__description {}
+
+  &__title {}
+
+  &__description {}
+
+  &__cta {}
+
+  &__link {}
+
+}

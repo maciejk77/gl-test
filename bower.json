@@ -1,0 +1,21 @@
+{
+  "name": "snr_dev_test",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Michael Wilson"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "^4.1.1",
+    "jquery": "^2.2.4"
+  }
+}
