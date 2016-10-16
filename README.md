@@ -19,10 +19,11 @@ The purpose of this exercise is to create **RWD** responsive web module using **
 #### Mobile view (320px+)
 
 ![gl-test large-desktop](https://github.com/maciejk77/gl-test/blob/master/img/mobile.png?raw=true)
+<img src="https://github.com/maciejk77/gl-test/blob/master/img/mobile.png?raw=true" width="240" height="335" />
 
-#### Tablet view (769px+)
+#### Tablet view (768px+)
 
-![gl-test large-desktop](https://github.com/maciejk77/gl-test/blob/master/img/tablet.png?raw=true =477x308)
+![gl-test large-desktop](https://github.com/maciejk77/gl-test/blob/master/img/tablet.png?raw=true)
 
 #### Small Desktop view (1024px+)
 
