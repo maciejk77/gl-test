@@ -22,7 +22,7 @@ The purpose of this exercise is to create **RWD** responsive web module using **
 
 #### Tablet view (769px+)
 
-![gl-test large-desktop](https://github.com/maciejk77/gl-test/blob/master/img/tablet.png?raw=true | width=477 height=308)
+![gl-test large-desktop](https://github.com/maciejk77/gl-test/blob/master/img/tablet.png?raw=true =477x308)
 
 #### Small Desktop view (1024px+)
 
