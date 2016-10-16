@@ -8,17 +8,40 @@ body:after {
 
 .info-banner {
 
-  &__content {}
+  overflow: auto;
+  background: url("../../img/banner_bg.png") center center no-repeat;
+  background-size: cover;
+
+  &__content {
+    padding: 20px;
+    background-color: white;
+    opacity: 0.5;
+  }
 
   &__title,
-  &__description {}
+  &__description {
+    font-weight: bold;
+    line-height: 1.4;
+    color: dark-blue;
+    margin: 0 0 20px;
+  }
 
-  &__title {}
+  &__title {
+    max-width: 320px;
+  }
 
-  &__description {}
+  &__description {
+    max-width: 400px;
+  }
 
-  &__cta {}
+  &__cta {
+    margin-bottom: 20px;
+  }
 
-  &__link {}
+  &__link {
+    padding: 5px;
+    text-decoration: none;
+    transition: background-color .2s;
+  }
 
 }
