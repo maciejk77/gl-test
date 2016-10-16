@@ -1,4 +1,5 @@
 @import "bower_components/normalize-css/normalize";
+@import "./vars.scss";
 
 body:after {
   content: "";
@@ -14,23 +15,26 @@ body:after {
 
   &__content {
     padding: 20px;
-    background-color: white;
-    opacity: 0.5;
+    background-color: rgba($white, .7);
   }
 
   &__title,
   &__description {
     font-weight: bold;
     line-height: 1.4;
-    color: dark-blue;
+    color: $dark-blue;
     margin: 0 0 20px;
   }
 
   &__title {
+    font-family: $font-headings;
+    font-size: $size-headings-small;
     max-width: 320px;
   }
 
   &__description {
+    font-family: $font-text;
+    font-size: $size-text-small;
     max-width: 400px;
   }
 
@@ -39,9 +43,11 @@ body:after {
   }
 
   &__link {
+    background-color: $orange;
+    color: $white;
+    font-size: $size-buttons;
     padding: 5px;
     text-decoration: none;
     transition: background-color .2s;
   }
-
 }
