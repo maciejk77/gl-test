@@ -2,7 +2,7 @@
 
 The purpose of this exercise is to create **RWD** responsive web module using **BEM** CSS class convention, **Sass** to create maintainable and reusable component. 
 
-##Key learnings
+##Key elements
 
 - BEM CSS
 - Sass
