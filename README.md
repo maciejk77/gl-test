@@ -10,8 +10,9 @@ The purpose of this exercise is to create **RWD** responsive web module using **
 
 ##Download (run in command line)
 - `git clone https://github.com/maciejk77/gl-test.git`
-- `npm install`
-- `gulp`
+- `cd gl-test`
+- `npm install` and `bower install`
+- `gulp` and open new terminal window `CMD+T`
 - `open index.html`
 
 ###Preview (Mobile first e.g. from mobile to large desktop)
