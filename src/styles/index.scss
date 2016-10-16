@@ -55,4 +55,53 @@ body:after {
       background-color: darken($orange, 10%);
     };
   }
+
 }
+
+@media (min-width: $tablet) {
+  
+  .info-banner {
+
+    &__content {
+      width: 400px;
+      padding: 40px;
+      margin: 80px 40px 80px auto;
+    }
+
+    &__title {
+      font-size: $size-headings-large;
+      max-width: 320px;
+    }
+
+    &__description {
+      font-size: $size-text-large;
+    }
+
+    &__link {
+      padding: 5px 20px;
+    }
+
+  }
+
+}
+
+@media (min-width: $small-desktop) {
+
+  .info-banner {
+    &__content {
+      margin: 100px 120px 180px auto;
+    }
+  }
+
+}
+
+@media (min-width: large-desktop) {
+  
+  .info-banner {
+    &__content {
+      margin: 180px 180px 180px auto;
+    }
+  }
+
+}
+
