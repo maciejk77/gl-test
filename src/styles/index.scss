@@ -49,5 +49,10 @@ body:after {
     padding: 5px;
     text-decoration: none;
     transition: background-color .2s;
+    
+    &:hover,
+    &:active {
+      background-color: darken($orange, 10%);
+    };
   }
 }
