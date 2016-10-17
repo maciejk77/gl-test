@@ -1,1 +1,1 @@
-gulp && open index.html
+web: gulp && open index.html
