@@ -14,12 +14,9 @@ const files = {
   ]
 }
 
-gulp.task('default', [
-  'clean',
-  'styles',
-  'js',
-  'watch'
-]);
+gulp.task("heroku:production", function(){
+    console.log('hello'); // the task does not need to do anything.
+});
 
 gulp.task('heroku:production', function() {
   runSeq('clean','styles','js','watch')
