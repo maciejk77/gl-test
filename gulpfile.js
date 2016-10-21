@@ -3,6 +3,7 @@ const sass = require('gulp-sass');
 const concat = require('gulp-concat');
 const cssmin = require('gulp-cssmin');
 const uglify = require('gulp-uglify');
+const runSeq = require('run-sequence');
 const del     = require('del');
 
 const files = {
@@ -19,6 +20,10 @@ gulp.task('default', [
   'js',
   'watch'
 ]);
+
+gulp.task('heroku:production', function() {
+  runSeq('clean','styles','js','watch')
+})
 
 gulp.task('watch', function(){
   

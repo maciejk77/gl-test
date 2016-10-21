@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app",
+    "postinstall": "gulp default"
   },
   "author": "Michael Wilson",
   "license": "ISC",
@@ -18,11 +19,12 @@
     "gulp-uglify": "^1.5.3"
   },
   "dependencies": {
-    "bcrypt": "^0.8.7"
-  },
-  "scripts": {
-    "start": "node app",
-    "postinstall": "gulp default"
-  }  
+    "bcrypt": "^0.8.7",
+    "run-sequence": "^1.2.2",
+    "name": "gulp-node-app-name",
+    "version": "10.0.4",
+    "scripts": {
+      "start": "node app.js"
+    }
+  }
 }
-
