@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node app",
-    "postinstall": "gulp && open index.html"
+    "heroku-prebuild": "echo This runs before Heroku installs your dependencies.",
+    "heroku-postbuild": "echo This runs afterwards.",
+    "start": "gulp",
+    "postinstall": "npm install && bower install"
   },
   "author": "Michael Wilson",
   "license": "ISC",
